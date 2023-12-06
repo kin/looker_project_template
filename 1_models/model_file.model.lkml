@@ -5,4 +5,4 @@
 connection: "data_castle" ## This is the database connection
 
 ## Explores
-include: "/2_explores/example_explore.explore.lkml" ## This is the syntax to include and expose a new explore
+# include: "/2_explores/example_explore.explore.lkml" ## This is the syntax to include and expose a new explore
