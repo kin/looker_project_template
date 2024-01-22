@@ -1,0 +1,16 @@
+## This is a standard view file. Dimensions, Measures, and other Calculations go here.
+
+view: example_view {
+  derived_table: {
+    sql:
+      SELECT *
+      FROM TABLE
+      WHERE TABLE.VALUE = 1
+      ;;
+  }
+
+dimension: test_dimension {}
+
+measure: test_measure {}
+
+}
